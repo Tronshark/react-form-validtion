@@ -1,6 +1,29 @@
 .demoForm {
   width: 500px;
   margin: auto;
-  border: solid rgb(0, 238, 255);
+  border: solid rgb(238, 217, 163);
   padding: 100px;
+}
+.Signinbutton {
+  color: rgb(80, 20, 20);
+  background-color: rgb(212, 108, 108);
+  padding: 8px 20px;
+  font-weight: 400;
+  font-size: medium;
+  border-radius: 20px 30px;
+  margin-top: 20px;
+  border: white solid;
+}
+.Signinbutton:hover {
+  color: rgb(240, 239, 236);
+  background-color: rgb(161, 143, 143);
+  padding: 8px 20px;
+  font-weight: 400;
+  font-size: medium;
+  border-radius: 20px 30px;
+  margin-top: 20px;
+  border: rgb(151, 97, 97) solid;
+}
+.form-control {
+  color: blue;
 }

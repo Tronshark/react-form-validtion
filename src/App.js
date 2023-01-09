@@ -12,7 +12,9 @@ class App extends Component {
             <h2>Test Project </h2>
 
             <br />
+
             <Form />
+
             <br />
           </div>
         </main>

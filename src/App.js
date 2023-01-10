@@ -55,6 +55,10 @@ function App () {
           </div>
         </div>
       </main>
+      <footer className='footer'>
+        copyrights@{' '}
+        <a href='https://tronshark.github.io/Portfolio/ '>tronshark</a>
+      </footer>
     </div>
   )
 }

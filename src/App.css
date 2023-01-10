@@ -95,3 +95,8 @@
 .eaddress {
   width: 50%;
 }
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px 20px;
+}

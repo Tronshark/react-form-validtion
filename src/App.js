@@ -21,7 +21,7 @@ function App () {
           </button>
           {/* newsletter*/}
 
-          <div className='newsletter'>
+          <form className='newsletter'>
             <h1>Newsletter</h1>
             <label className='eaddress'>Email address</label>
             <input
@@ -34,7 +34,7 @@ function App () {
             <button type='submit' className='Signinbutton'>
               Submit
             </button>
-          </div>
+          </form>
 
           {/*popup*/}
           <div>

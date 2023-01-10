@@ -26,3 +26,72 @@
     transform: rotate(360deg);
   }
 }
+.notificationPopup {
+  height: 60%;
+  width: 50%;
+  background-color: rgb(226, 196, 26);
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  padding: 10px;
+  border: solid black;
+}
+.notificationHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px 0 15px;
+}
+.closeIcon {
+  align-items: center;
+  transform: translateX(-20px);
+  background-color: rgb(159, 212, 61);
+  color: aliceblue;
+  border: solid rgba(184, 63, 63, 0.171);
+  font-size: medium;
+}
+.closeIcon:hover {
+  align-items: center;
+  transform: translateX(-20px);
+  background-color: rgb(176, 206, 122);
+  color: rgb(0, 0, 0);
+}
+.closeIcondiv {
+  padding: 8px 10px;
+  height: 35px;
+  width: 10px;
+}
+.Signupbutton {
+  background-color: rgb(159, 212, 61);
+  border-radius: 50%;
+  color: aliceblue;
+  font-size: medium;
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  padding: 30px;
+  margin: 10px;
+  border: solid rgba(192, 39, 39, 0.171);
+}
+.Signupbutton:hover {
+  background-color: rgb(159, 212, 61);
+  border-radius: 50%;
+  color: rgb(27, 28, 29);
+  font-size: medium;
+  position: fixed;
+  right: 0;
+  bottom: 20%;
+  padding: 30px;
+  margin: 10px;
+}
+.newsletter {
+  height: 30%;
+  width: 50%;
+  background-color: rgb(196, 182, 104);
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  padding: 10px;
+}
+.eaddress {
+  width: 50%;
+}
